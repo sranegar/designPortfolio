@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Dimis;
+  src: url(../fonts/DIMIS___.TTF);
+}
+
+@font-face {
+  font-family: Cubic;
+  src: url(../fonts/cubic.ttf);
+}
+
+@font-face {
+  font-family: Rez;
+  src: url(../fonts/REZ.ttf);
+}
+
+@font-face {
+  font-family: Lane;
+  src: url(../fonts/LANECANE.ttf);
+}
+
+@font-face {
+  font-family: Kiona;
+  src: url(../fonts/Kiona-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../fonts/Lora-Regular.ttf);
+}
+
+nav h1 {
+  font-family: Kiona;
+  font-size: 33px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.site-container {
+  width: 1050px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+nav {
+  height: 150px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links a {
+  font-family: Lane;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 15px;
+  color: #000000;
+}
+
+.links a:hover {
+  color: #ffa21f;
+}
+
+.active-font {
+  font-weight: bold;
+  color: #ffa21f !important;
+}
+
+.left-links {
+}
+
+p {
+  font-family: Lane;
+  font-size: 14px;
+}
+
+.home1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper-about-me {
+  width: 400px;
+}
+
+.text-wrapper-about-me h3 {
+  font-size: 25px;
+}
+
+.text-wrapper-1 {
+  width: 400px;
+  margin-top: 36px;
+}
+
+.web-experience {
+  font-family: Kiona;
+  font-size: 26px;
+  margin-left: 16px;
+}
+
+h3 {
+  font-family: Kiona;
+  font-size: 20px;
+}
+
+.watering-can {
+  width: 500px;
+  height: 350px;
+}
+
+.jellyfish-princess {
+  width: 500px;
+  height: 500px;
+}
+
+.family-crest {
+  width: 670px;
+  height: 400px;
+}
+
+.about-me-photo {
+  width: 500px;
+  height: 500px;
+}
+
+.project-links a {
+  font-family: Lane;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #ffa21f;
+}
+
+.home2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper-2 {
+  width: 400px;
+  margin-top: 36px;
+}
+
+.soap-factory {
+  width: 530px;
+  height: 370px;
+}
+
+.text-wrapper-3 {
+  width: 400px;
+}
+
+.home3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  font-family: Lane;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.content-wrapper {
+  width: 975px;
+}
+
+.contact-page {
+  width: 800px;
+  margin-left: 108px;
+}
+
+.contact-page input {
+  min-height: 50px;
+  border: 2px solid #82c0cc;
+  margin-bottom: 40px;
+}
+
+input[type="text message"] {
+  height: 120px;
+  border: 2px solid #82c0cc;
+}
+
+input[type="submit"] {
+  margin-top: 40px;
+  cursor: pointer;
+  height: 50px !important;
+  width: 20%;
+  background-color: #489fb5;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: Kiona;
+  font-weight: bold;
+  margin-left: 39%;
+  letter-spacing: 1px;
+}
+
+.submit {
+  margin-top: 40px;
+  cursor: pointer;
+  height: 50px !important;
+  width: 20%;
+  background-color: #489fb5;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: Kiona;
+  font-weight: bold;
+  margin-left: 39%;
+  letter-spacing: 1px;
+}
