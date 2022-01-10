@@ -21,7 +21,8 @@
                 </div>
                 <div class="right-links">
                     <a href="about.html">About</a>
-                    <a class="active-font" href="contact.php">Contact Me</a>
+                    <a class="active-font" href="contact.html">Contact Me</a>
+                    <a href="pdf/Stephanie Ranegar - Resume.pdf">Resume</a>
                 </div>
             </div>
         </nav>
@@ -34,33 +35,34 @@
             <br>
 
             <div class="contact-page">
-                <form class="contact-form" action="contactform.php" method="post" enctype="text/plain">
+                <form class="contact-form" action="https://formsubmit.co/stephanie.ranegar@gmail.com" method="post">
                     <!-- Put into a div to seperate left and right form boxes -->
                     <div class="testing">
-                        <label for="fname"></label>
+                
                         <input type="text" id="fname" name="fname" style="width: 49.5%;" placeholder="First Name*">
-
-                        <label for="lname"></label>
                         <input type="text" id="lname" name="lname" style="width: 49.5%;" placeholder="Last Name*">
                     </div>
                     <!-- Right side of boxes -->
                     <div class="it-works">
-                        <label for="email"></label>
-                        <input type="text" id="email" name="email" style="width: 49.5%;" placeholder="Email*">
+                     
+                        <input type="text" id="email" name="email" style="width: 49.5%;" placeholder="Email*" required>
 
-                        <label for="number"></label>
+                     
                         <input type="text" id="number" name="number" style="width: 49.5%;"
                             placeholder="Phone Number*">
                     </div>
 
-                    <label for="subject"></label>
+
                     <input type="text" id="subject" name="subject" style="width: 100%;" placeholder="Subject*">
 
-                    <label for="message"></label>
+    
                     <textarea id="message" name="message" style="width: 100%;" placeholder="Message*"></textarea>
 
-                    <button class= "submit" type="submit" name= "submit" >Submit</button>
+                    <button class= "submit" type="submit">Submit</button>
+
+                    <input type= "hidden" name= "_next" value= "http://127.0.0.1:5500/messagesent.html">
                 </form>
+        
 
             </div>
             <br>
